@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquetacinio web 2024</title>
 </head>
 <body>
+<div style="height:270vh;width:55vw;border: 2px solid #000000;">
+    <div style="height:80vh;width:50vw;">
+    <h1 id="Hoja_vida">Hoja de vida</h1>
+    <div>
+    <menu>
+        <li><a href="#Datos_perosnales"> Datos Personales </a></li>
+        <li><a href="#Formacion_academica"> Formacion Academica </a></li>
+        <li><a href="#Experiencia_laboral"> Experiencia Laboral </a></li>
+        <li><a href="#Referencias_personales"> Referencias Personales </a></li>
+        <li><a href="#Referencia_familiares"> Referencias Familiares </a></li>
+    </menu>
+    </div>
+    <div align = "center">
+        <img src="/images/LIZANDRO.jpg" alt="Foto de perfil" width="150" height="200">
+    </div>
 
-    <h1>Hoja de vida</h1>
-<menu>
-    <li><button>Datos Personales</button></li>
-    <li><button>Formacion Academica</button></li>
-    <li><button>Experencia Laboral</button></li>
-    <li><button>Referencias Personales</button></li>
-    <li><button>Referencias Familiares</button></li>
-</menu>
 
-<table>
+    <table>
         <section>
-            <head><h3>Datos Personales</h3></head>
+            <head><h3 id="Datos_perosnales">Datos Personales</h3></head>
             <tr>
                 <td>Nombre o Nombres:</td>
                 <td><input type="text"></td>
@@ -52,10 +59,61 @@
 
         </section>
 </table>
+<hr>
 
 <table>
     <section>
-        <head><h3>Formacion Academica</h3></head>
+        <head><h3 id="Formacion_academica">Formacion Academica</h3></head>
+        <tr>
+            <td>Institución Educativa:</td>
+            <td><input type="text"></td>
+
+            <td>Titulo Obtenido:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Año de graduación:</td>
+            <td><input type="text"></td>
+        </tr>
+    </section>
+</table>
+<table>
+    <section>
+        <head><br></head>
+        <tr>
+            <td>Institución Educativa:</td>
+            <td><input type="text"></td>
+
+            <td>Titulo Obtenido:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Año de graduación:</td>
+            <td><input type="text"></td>
+        </tr>
+    </section>
+</table>
+<table>
+    <section>
+        <head><br></head>
+        <tr>
+            <td>Institución Educativa:</td>
+            <td><input type="text"></td>
+
+            <td>Titulo Obtenido:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Año de graduación:</td>
+            <td><input type="text"></td>
+        </tr>
+    </section>
+</table>
+<hr>
+
+<table>
+    <section>
+        <head><h3 id="Experiencia_laboral">Experiencia Laboral</h3></head>
         <tr>
             <td>Nombre o Nombres:</td>
             <td><input type="text"></td>
@@ -89,10 +147,11 @@
 
     </section>
 </table>
+<hr>
 
 <table>
     <section>
-        <head><h3>Experencia Laboral</h3></head>
+        <head><h3 id="Referencias_personales">Referencias Personales </h3></head>
         <tr>
             <td>Nombre o Nombres:</td>
             <td><input type="text"></td>
@@ -113,23 +172,16 @@
             <td><input type="text"></td>
         </tr>
         <tr>
-            <td>Numero de Documento:</td>
-            <td><input type="text"></td>
             <td>Correo Electronico:</td>
             <td><input type="text"></td>
         </tr>
-            
-        <tr>
-            <td>Direccion:</td>
-            <td><input type="text"></td>
-        </tr>  
 
     </section>
 </table>
 
 <table>
     <section>
-        <head><h3>Referencias Personales</h3></head>
+        <head><br></head>
         <tr>
             <td>Nombre o Nombres:</td>
             <td><input type="text"></td>
@@ -150,23 +202,15 @@
             <td><input type="text"></td>
         </tr>
         <tr>
-            <td>Numero de Documento:</td>
-            <td><input type="text"></td>
             <td>Correo Electronico:</td>
             <td><input type="text"></td>
         </tr>
-            
-        <tr>
-            <td>Direccion:</td>
-            <td><input type="text"></td>
-        </tr>  
 
     </section>
 </table>
-
 <table>
     <section>
-        <head><h3>Referencias Familiares</h3></head>
+        <head><br></head>
         <tr>
             <td>Nombre o Nombres:</td>
             <td><input type="text"></td>
@@ -187,21 +231,110 @@
             <td><input type="text"></td>
         </tr>
         <tr>
-            <td>Numero de Documento:</td>
-            <td><input type="text"></td>
             <td>Correo Electronico:</td>
             <td><input type="text"></td>
         </tr>
-            
-        <tr>
-            <td>Direccion:</td>
-            <td><input type="text"></td>
-        </tr>  
 
+    </section>
+</table>
+<hr>
+
+<table>
+    <section>
+        <head><h3 id="Referencia_familiares">Referencias Familiares</h3></head>
+        <tr>
+            <td>Nombre o Nombres:</td>
+            <td><input type="text"></td>
+
+            <td>Telefono Celular:</td>
+            <td><input type="text"></td>
+
+            <tr>
+                <td>Primer Apellido:</td>
+                <td><input type="text"></td>
+                <td>Telefono Fijo:</td>
+                <td><input type="text"></td>
+            </tr>
+        
+            <td>Segundo Apellido:</td>
+            <td><input type="text"></td>
+            <td>Whatsapp:</td>
+            <td><input type="text"></td>
+        </tr>
+            <td>Correo Electronico:</td>
+            <td><input type="text"></td>
+        </tr>
+    </section>
+</table>
+<table>
+    <section>
+        <head><br></head>
+        <tr>
+            <td>Nombre o Nombres:</td>
+            <td><input type="text"></td>
+
+            <td>Telefono Celular:</td>
+            <td><input type="text"></td>
+
+            <tr>
+                <td>Primer Apellido:</td>
+                <td><input type="text"></td>
+                <td>Telefono Fijo:</td>
+                <td><input type="text"></td>
+            </tr>
+        
+            <td>Segundo Apellido:</td>
+            <td><input type="text"></td>
+            <td>Whatsapp:</td>
+            <td><input type="text"></td>
+        </tr>
+            <td>Correo Electronico:</td>
+            <td><input type="text"></td>
+        </tr>
+    </section>
+</table>
+<table>
+    <section>
+        <head><br></head>
+        <tr>
+            <td>Nombre o Nombres:</td>
+            <td><input type="text"></td>
+
+            <td>Telefono Celular:</td>
+            <td><input type="text"></td>
+
+            <tr>
+                <td>Primer Apellido:</td>
+                <td><input type="text"></td>
+                <td>Telefono Fijo:</td>
+                <td><input type="text"></td>
+            </tr>
+        
+            <td>Segundo Apellido:</td>
+            <td><input type="text"></td>
+            <td>Whatsapp:</td>
+            <td><input type="text"></td>
+        </tr>
+            <td>Correo Electronico:</td>
+            <td><input type="text"></td>
+        </tr>
     </section>
 </table>
 
 <br><br>
-    <footer>pie de pagina</footer>
+<form action="">
+    <label for="name"> Nombre</label>
+    <input type="text">
+    <label for="name"> Correo</label>
+    <input type="text">
+    <label for="name"> Mensaje</label>
+    <input type="text">
+    <button>Enviar</button>
+</form>
+<br>
+    <footer><a href="#Hoja_vida">Inicio</a></footer>
+
+    </div>
+</div>
 </body>
 </html>
